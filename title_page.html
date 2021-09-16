@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style_page.css">
+    <link rel="stylesheet" href="styles/style_page.css">
+    <link rel="stylesheet" href="styles/header_mobile.css">
     <title>FlatTool</title>
 </head>
 
@@ -13,39 +14,54 @@
 <div class="content-page">
 <body>
     <header class="big">
-    <div class="navbar">
-        <div>
-            <h1 class="logo text-green">
-                    <span class="text-primary">
-                        FLAT
-                    </span>
-                TOOL
-            </h1>
-            <p class="text-under-logo">LANDING PAGE</p>
-        </div>
-
-        <nav class="header-nav">
-            <div class="header-nav-social">
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook-square text-primary"></i>
-                </a>
-                <a href="https://skype.com">
-                    <i class="fab fa-skype text-green"></i>
-                </a>
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter-square text-primary"></i>
-                </a>
-                <a href="https://pinterest.com">
-                    <i class="fab fa-pinterest text-green"></i>
-                </a>
+        <div class="navbar" id="navbar">
+            <div>
+                <h1 class="logo text-green">
+                        <span class="text-primary">
+                            FLAT
+                        </span>
+                    TOOL
+                </h1>
+                <p class="text-under-logo">LANDING PAGE</p>
             </div>
-            <ul class="header-nav-info">
-                <li><a href="#">CALL NOW</a></li>
-                <li><a href="phone pic"><i class="fas fa-phone text-primary"></i></a></li>
-                <li><a href="phone" class="text-primary">1-800-123-456</a></li>
-            </ul>
-        </nav>
+            <nav class="header-nav">
+                <div class="header-nav-social">
+                    <a href="https://facebook.com">
+                        <i class="fab fa-facebook-square text-primary"></i>
+                    </a>
+                    <a href="https://skype.com">
+                        <i class="fab fa-skype text-green"></i>
+                    </a>
+                    <a href="https://twitter.com">
+                        <i class="fab fa-twitter-square text-primary"></i>
+                    </a>
+                    <a href="https://pinterest.com">
+                        <i class="fab fa-pinterest text-green"></i>
+                    </a>
+                </div>
+                <ul class="header-nav-info">
+                    <li><a href="#">CALL NOW</a></li>
+                    <li><a href="phone pic"><i class="fas fa-phone text-primary"></i></a></li>
+                    <li><a href="phone" class="text-primary">1-800-123-456</a></li>
+                </ul>
+            </nav>
     </div>
+        <div class="container">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 </header>
     <section class="home-info">
         <div class="home-info-top-content">
